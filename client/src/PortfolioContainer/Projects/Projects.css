@@ -1,0 +1,121 @@
+.projects-container {
+  margin-top: 40em;
+  margin-bottom: 40em;
+  display: flex;
+  flex-direction: column;
+  justify-items: left;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50em 0 0 0;
+  color: whitesmoke;
+}
+
+.projects-card-header-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects-card-header-title svg {
+    margin-top: 2em;
+    margin-right: 2em;
+    width: 5em;
+}
+
+.projects-card-header-title h2 {
+    color: whitesmoke;
+    padding: 0.2em;
+    margin: 1em;
+}
+
+.projects-card:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0px 20px -2px #8b8b8c;
+}
+
+.projects-parent {
+  max-width: 1000px;
+  width: 80%;
+  margin-top: 4em;
+  opacity: 88%;
+}
+
+.projects-card {
+      display: flex;
+  background-color: rgb(177, 221, 231);
+  width: 100%;
+  box-shadow: 0 0px 10px -2px #000000;
+    opacity: 95%;
+  background-color: #1f2235;
+}
+
+.projects-img-1 {
+  border-radius: 10%;
+  width: 50%;
+  background-image: url("https://github.com/Matt-Chisholm/Paw-Five/raw/master/docs/readme.md/landing.gif?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1em;
+  opacity: 50%;
+}
+
+.projects-img-1:hover {
+    opacity:100%;
+}
+
+.projects-img-2 {
+  border-radius: 10%;
+  width: 30%;
+  background-image: url("https://media.wired.com/photos/59269cd37034dc5f91bec0f1/master/pass/GoogleMapTA.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1em;
+  opacity: 50%;
+}
+
+.projects-img-2:hover {
+    opacity:100%;
+}
+
+.projects-img-3 {
+  border-radius: 10%;
+  width: 30%;
+  background-image: url("https://camo.githubusercontent.com/ee35a52a72cefa8e17e7edcd478c8ec2ab110d5f24372ab34cf5fecc62675de4/68747470733a2f2f692e696d6775722e636f6d2f6d7076544375592e706e67");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1em;
+  opacity: 50%;
+}
+
+.projects-img-3:hover {
+    opacity:100%;
+}
+
+.projects-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projects-description {
+  font-family: "Poppins Regular";
+  font-size: 18px;
+  margin: 0 0 5px 0;
+  margin: 2em;
+  text-align: justify;
+}
+
+.parent-1 {
+  margin-left: 20em;
+}
+
+.parent-2 {
+  margin-right: 20em;
+}
+
+.parent-3 {
+  margin-left: 20em;
+}
