@@ -119,3 +119,33 @@
 .parent-3 {
   margin-left: 20em;
 }
+
+@media only screen and (max-width: 1110px) {
+  .parent-1 {
+    margin-left: 10em;
+  }
+  .parent-2 {
+    margin-right: 10em;
+  }
+  .parent-3 {
+    margin-left: 10em;
+  }
+}
+@media only screen and (max-width: 898px) {
+  .parent-1 {
+    margin-left: 5em;
+  }
+  .parent-2 {
+    margin-right: 5em;
+  }
+  .parent-3 {
+    margin-left: 5em;
+  }
+
+}
+@media only screen and (max-width: 466px) {
+  .parent-1 .parent-2 .parent-3 {
+    margin: 0;
+  }
+}
+
