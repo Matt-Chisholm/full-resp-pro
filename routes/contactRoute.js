@@ -1,6 +1,5 @@
 const router = require("express").Router();
 const nodemailer = require("nodemailer");
-require("dotenv").config();
 
 router.post("/contact", (req, res) => {
   const { name, email, message } = req.body;
