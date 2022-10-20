@@ -98,7 +98,7 @@
 }
 
 @media screen and (max-width: 1110px) {
-    .profile-picture {
+    .icon-container {
         margin: 0 0px 0 80px;
     }
     .profile-details-name {
@@ -116,6 +116,9 @@
 }
 
 @media screen and (max-width: 810px) {
+    .icon-container {
+        margin-right: 5vh;
+    }
     .profile-parent {
         flex-direction: column-reverse;
         margin: 40px 0 0 0;
