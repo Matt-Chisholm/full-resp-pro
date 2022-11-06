@@ -48,7 +48,7 @@ export default function AboutMe(props) {
       className='about-me-container screen-container fade-in'
       id={props.id || ""}>
       <div className='about-me-parent'>
-        <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
+        <ScreenHeading title={"About Me"} subHeading={"A Little More"} />
         <div className='about-me-card'>
           <div className='about-me-profile'></div>
           <div className='about-me-details'>

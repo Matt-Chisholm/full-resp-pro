@@ -65,9 +65,9 @@ export default function Projects(props) {
           <div className='projects-img-2'>{}</div>
           <div className='projects-card-header'>
             <div className='projects-card-header-title'>
-              <h2>TS Maps</h2>
+              <h2>Tetris</h2>
               <a
-                href='https://github.com/Matt-Chisholm/maps-ts'
+                href='https://github.com/Matt-Chisholm/react-tetris'
                 target={"_blank"}>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -82,13 +82,14 @@ export default function Projects(props) {
             </div>
             <div className='projects-description'>
               <span>
-                A google map interface using Typescript and the Google Maps API.
+                A fully functioning tetris game built with React custom hooks
+                and styled components.
               </span>
             </div>
             <div className='projects-stack'>
-              <span>Typescript</span>
+              <span>React</span>
+              <span>Styled Components</span>
               <span>Node</span>
-              <span>HTML</span>
             </div>
           </div>
         </div>
